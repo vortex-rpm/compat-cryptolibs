@@ -37,7 +37,7 @@ cd db-%{_db_ver}/build_unix
 make
 cd ../..
 cd openssl-%{_openssl_ver}
-./Configure --prefix=%{_dest}
+./config --prefix=%{_dest}
 make
 cd ..
 
