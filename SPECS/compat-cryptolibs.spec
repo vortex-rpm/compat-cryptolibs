@@ -35,7 +35,7 @@ cd ..
 cd db-%{_db_ver}/build_unix
 ../dist/configure --enable-cxx --prefix=%{_dest}
 make
-cd ..
+cd ../..
 cd openssl-%{_openssl_ver}
 ./configure --prefix=%{_dest}
 make
